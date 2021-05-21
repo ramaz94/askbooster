@@ -340,20 +340,31 @@
 
 // start about 
 
-    .about__inner {
-        display: flex;
+    .about {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        .about__inner {
+            display: flex;
+            height: 893px;
+        }
     }
-
     .about__img {
+        position: relative;
+        width: 972px;
         img {
+            position: absolute;
             max-width: 1110px;
-        max-height: 937px;
+            max-height: 937px;
+            left: 0;
+            top: -44px;
         }
     }
 
     .about__content {
         color: #fff;
         max-width: 800px;
+        z-index: 3;
     }
     .about__content-subtitle {
         font-size: 24px;
@@ -389,16 +400,41 @@
         justify-content: space-between;
     }
     .about__content-video {
+        width: 386px;
+        height: 215px;
         iframe {
             border-radius: 9px;
         }
     }
 
 
+
+//end about
+
+// srat social
+
+    .social__links {
+        text-align: center;
+        padding: 35px 0;
+        img {
+         position: absolute;
+         left: 11px;
+         top: 10px;
+        }
+    }
+
+    .social__link {
+        position: relative;
+        border: 1px solid rgba(54, 58, 69, 1);
+        border-radius: 50%;
+        height: 70px;
+        width: 70px;
+        margin: 0 17px;
+    }
+
     
 
 
-
-//end about
+// end social
 
 
