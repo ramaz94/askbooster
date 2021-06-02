@@ -1,0 +1,171 @@
+
+@media (max-width: 1850px) {
+    .slick-arrow {
+        display: none !important;
+    }
+}
+
+@media (max-width: 1350px) {
+    .boost__item-btn {
+        max-width: 200px;
+        font-size: 18px;
+        padding: 5px 67px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .advanteges__title {
+        margin-top: 90px;
+    }
+    .advanteges__items {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .advanteges__item {
+        margin: 10px;
+    }
+    .main-wrapper {
+        height: auto;
+    }
+ }
+
+@media (max-width: 1000px) {
+   .boost__items {
+    flex-wrap: wrap;
+   }
+   .boost__item {
+       width: 50%;
+   }
+   .boost__item-btn {
+    max-width: 270px;
+    padding: 20px 67px;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 1050px) {
+    .header__products {
+        display: none;
+    }
+    .burger__btn {
+        display: block;
+        margin-right: 20px;
+    }
+
+    .products__item-arrow {
+        display: none;
+    }
+}
+
+
+@media (max-width: 870px) {
+   .boost__top-title, .boost__title-top {
+       font-size: 26px;
+   }
+   .boost__top-text {
+       font-size: 16px;
+   }
+}
+
+@media (max-width: 770px) {
+    .boost__item {
+        width: 100%;
+        background-position: top;
+        border: 3px solid rgba(219,171,0,0.1);
+    }
+    .boost__items {
+        border: none;
+    }
+ }
+
+
+@media (max-width: 600px) {
+    .boost__top-title, .boost__title-top {
+        font-size: 16px;
+    }
+    .boost__top-text {
+        font-size: 12px;
+    }
+ }
+
+
+
+ @media (max-width: 500px) {
+    .boost__top-text {
+        display: none;
+    }
+    .boost__top-title {
+        padding-top: 40px;
+    }
+    .boost__top {
+        height: 150px;
+    }
+    .boost__item-btn {
+        max-width: 200px;
+        font-size: 18px;
+        padding: 5px 67px;
+    }
+ }
+
+ @media (max-width: 400px) {
+   .advanteges__item-title {
+       font-size: 20px;
+   }
+   .advanteges__item-text {
+       font-size: 16px;
+   }
+ }
+
+ @media (max-width: 350px) {
+    .advanteges__item-title {
+        font-size: 16px;
+    }
+    .advanteges__item-text {
+        font-size: 12px;
+    }
+  }
+ 
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 660px) {
+    .header__contact {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1051px) {
+    .products__item-tabs {
+        display: none !important;
+    }
+}
