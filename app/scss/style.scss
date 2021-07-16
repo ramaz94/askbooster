@@ -3,6 +3,7 @@
 
 //start header
 
+
 .main-wrapper {
     background-size: cover;
     background-repeat: no-repeat;
@@ -487,7 +488,7 @@
     .about__content-text {
         display: inline-block;
         margin-bottom: 20px;
-        font-style: 18px;
+        font-size: 18px;
         letter-spacing: 1px;
         font-weight: 400;
     }
@@ -566,7 +567,7 @@
         &::after {
             content: "";
             height: 2px;
-            width: 40%;
+            width: 50%;
             background: rgba(255, 255, 255, 0.2);
             position: absolute;
             top: 56px;

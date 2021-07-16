@@ -17,14 +17,18 @@ $(function(){
           infinite: true,
           dots: true,
         }
+      },
+      {
+        breakpoint: 850,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        }
       }
     ]
   });
-
-
-
-
-
 
 
   $('.title-1').hover(function(){
@@ -53,10 +57,6 @@ $(function(){
   });
 
 
-
-
-
-
   $('.products__item-tabs .tab').on('click', function(event) {
     var id = $(this).attr('data-id');
       $('.products__item-tabs').find('.tab-item').removeClass('active-tab').hide();
@@ -69,16 +69,6 @@ $(function(){
     $('.burger__btn').on('click', function(){
       $('.products__item-tabs').slideToggle();
     });
-
-
-  
-
-
-
-
-
-
-
 });
 
 
